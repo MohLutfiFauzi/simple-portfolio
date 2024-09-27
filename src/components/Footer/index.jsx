@@ -15,7 +15,7 @@ const index = () => {
         </a>{" "}
         The source code is available on{" "}
         <a
-          href="https://github.com/MohLutfiFauzi"
+          href="https://github.com/MohLutfiFauzi/simple-portfolio"
           target="_blank"
           rel="noreferrer"
           className="underline"
