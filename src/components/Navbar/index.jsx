@@ -7,27 +7,27 @@ import Logo from "@/assets/logo.svg";
 const navbarTitle = [
   {
     title: "Home",
-    path: "/",
+    path: "/simple-portfolio/",
   },
   {
     title: "About",
-    path: "/about",
+    path: "/simple-portfolio/about",
   },
   {
     title: "Experience",
-    path: "/experience",
+    path: "/simple-portfolio/experience",
   },
   {
     title: "Skills",
-    path: "/skills",
+    path: "/simple-portfolio/skills",
   },
   {
     title: "Interest",
-    path: "/interest",
+    path: "/simple-portfolio/interest",
   },
   {
     title: "Awards",
-    path: "/awards",
+    path: "/simple-portfolio/awards",
   },
 ];
 
@@ -37,7 +37,7 @@ const Navbar = () => {
       <header className="sticky top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-24">
         <nav className="hidden flex-col gap-6 md:flex md:flex-row md:items-center md:gap-5 md:text-sm md:w-full lg:gap-6">
           <NavLink
-            to="/"
+            to="/simple-portfolio/"
             className="flex mr-auto items-center gap-2 text-lg font-semibold md:text-base"
           >
             <img src={Logo} alt="Logo" className="w-12" />
@@ -71,7 +71,7 @@ const Navbar = () => {
           <SheetContent side="left">
             <nav className="grid gap-6">
               <NavLink
-                to="/"
+                to="/simple-portfolio/"
                 className="flex items-center gap-2 text-lg font-semibold"
               >
                 <img src={Logo} alt="Logo" className="w-12" />

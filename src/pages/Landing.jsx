@@ -11,9 +11,9 @@ function Landing() {
       </section>
       <section className="h-auto border-t p-20">
         <h2 className="font-bold text-4xl mb-20">What I do ?</h2>
-        <div class="grid grid-cols-1 gap-10 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
           {frontendServices.map((service, index) => (
-            <div className="border-b border-indigo-500">
+            <div key={index} className="border-b border-indigo-500">
               <h3 className="font-bold text-base mb-3">{index + 1}</h3>
               <h4 className="text-xl font-bold mb-2">{service.title}</h4>
               <p className="mb-7">{service.description}</p>

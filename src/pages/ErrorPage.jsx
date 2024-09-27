@@ -1,6 +1,8 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
 const NotFoundPage = () => {
+  const navigate = useNavigate();
   return (
     <div className="flex items-center justify-center h-screen bg-gray-100">
       <div className="text-center">
@@ -15,7 +17,7 @@ const NotFoundPage = () => {
         </p>
 
         <Button
-          onClick={() => (window.location.href = "/")}
+          onClick={() => navigate(-1)}
           className="bg-indigo-600 text-white hover:bg-indigo-700 transition-colors px-6 py-2 rounded-lg"
         >
           Go Back Home
