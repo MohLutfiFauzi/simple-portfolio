@@ -4,7 +4,7 @@ import Logo from "@/assets/logo.svg";
 const About = () => {
   return (
     <section className="h-auto">
-      <div className="max-w-screen-md flex items-center justify-between m-auto py-20 gap-20">
+      <div className="max-w-full px-4 flex flex-col-reverse items-center justify-between m-auto py-20 gap-20 md:flex-row md:max-w-screen-md md:px-0">
         <div>
           <h1 className="text-2xl font-bold mb-4">
             The Journey of a Lifelong Learner

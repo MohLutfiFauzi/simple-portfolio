@@ -2,8 +2,8 @@ import React from "react";
 
 const index = () => {
   return (
-    <footer className="h-[63px] border-t flex items-center">
-      <h4 className="ml-20">
+    <footer className="h-[63px] border-t flex items-center justify-center md:justify-start">
+      <h4 className="md:ml-20 ">
         Built by{" "}
         <a
           href="https://github.com/MohLutfiFauzi"
